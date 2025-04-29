@@ -1,0 +1,107 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1e1e2f;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #3498db;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2em;
+    background-color: #ffffff;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 1em 0 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #2980b9;
+}
+
+/* Main Content */
+main {
+    padding: 2em;
+    background-color: #fff;
+    margin: 1em auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main section {
+    margin-bottom: 2em;
+}
+
+h2, h3 {
+    color: #1e1e2f;
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
