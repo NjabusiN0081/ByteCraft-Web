@@ -3,36 +3,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ByteCraft - Community</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <img src="pictures/marketing-5187244_1920.png" alt="ByteCraft logo" class="nav-logo">
+            <ul class="nav-links">
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="Shop.html">Shop</a></li>
                 <li><a href="Products & Services.html">Products & Services</a></li>
                 <li><a href="About Us.html">About Us</a></li>
                 <li><a href="Contact & Support.html">Contact & Support</a></li>
                 <li><a href="Community.html">Community</a></li>
-               
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Community</h1>
-        <p>Join the ByteCraft community and connect with fellow digital creators, gamers, and enthusiasts.</p>
-
-        <section>
-            <h2>Frequently Asked Questions</h2>
-            <input type="text" id="search-bar" placeholder="Search FAQs...">
-            <p>Start typing to find answers to common questions about our services and products.</p>
+        <!-- Banner -->
+        <section class="about-banner">
+            <div class="banner-content">
+                <h1>Welcome to the ByteCraft Community</h1>
+                <p>Connect. Share. Inspire.</p>
+            </div>
         </section>
 
-        <section>
+        <!-- Community Intro -->
+        <section class="company-intro">
+            <h2>Get Involved</h2>
+            <p>Our community is made up of passionate creators, gamers, and tech lovers who share ideas, collaborate on projects, and inspire each other to explore the limits of digital creativity.</p>
+            <p>Whether you're just starting out or you're a seasoned pro, the ByteCraft community is here to help you grow and connect.</p>
+        </section>
+
+        <!-- FAQs -->
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <input type="text" id="search-bar" placeholder="Search FAQs..." />
+            <p>Type your query to find answers to common questions about our community, products, and services.</p>
+        </section>
+
+        <!-- Feedback -->
+        <section class="feedback-section">
             <h2>Comments & Feedback</h2>
             <textarea placeholder="Leave your feedback here..."></textarea>
-            <button>Submit</button>
+            <br>
+            <button class="cta-button">Submit</button>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Join Our Forums</h2>
+            <p>Become an active part of the ByteCraft family. Share tips, post your creations, and get inspired!</p>
+            <a href="signup.html"><button class="cta-button">Join Now</button></a>
         </section>
     </main>
 
