@@ -421,3 +421,47 @@ footer {
 .shop-now-btn:hover {
     background-color: #2980b9;
 }
+
+/* Banner Section */
+.banner {
+    background-image: url('pictures\marketing-5187244_1920.png'); 
+    background-size: cover;  
+    background-position: center center;  
+    color: white;  
+    padding: 4em 2em;  
+    text-align: center;
+}
+
+/* Banner Content */
+.banner-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 2em;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.shop-now-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.shop-now-btn:hover {
+    background-color: #2980b9;
+}
