@@ -1,41 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ByteCraft - Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <img src="pictures/marketing-5187244_1920.png" alt="ByteCraft logo" class="nav-logo">
+            <ul class="nav-links">
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="Shop.html">Shop</a></li>
                 <li><a href="Products & Services.html">Products & Services</a></li>
                 <li><a href="About Us.html">About Us</a></li>
                 <li><a href="Contact & Support.html">Contact & Support</a></li>
                 <li><a href="Community.html">Community</a></li>
-               
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>ByteCraft Shop</h1>
-        <p>Browse our selection of top-quality products designed for gamers, content creators, and digital enthusiasts. Find your perfect gear below.</p>
+        <section class="shop-header">
+            <h1>ByteCraft Shop</h1>
+            <p>Browse our selection of top-quality products designed for gamers, content creators, and digital enthusiasts. Find your perfect gear below.</p>
+        </section>
 
-        <section class="product-list">
+        <section class="product-grid">
             <article class="product">
                 <h2>Custom Merchandise for Content Creators</h2>
                 <p>Design and sell your own merch for your fans, from t-shirts to accessories.</p>
+                <button class="view-product-btn">View Products</button>
             </article>
+
             <article class="product">
                 <h2>Gaming Gear & Accessories</h2>
                 <p>Upgrade your setup with high-performance gaming gear.</p>
-                <img src="pictures\gamer-6899810_1280.jpg"
+                <img src="pictures/gamer-6899810_1280.jpg" alt="Gaming Gear & Accessories">
+                <button class="view-product-btn">View Products</button>
             </article>
+
             <article class="product">
                 <h2>Tech Solutions for Your Digital World</h2>
                 <p>Find tools and tech to take your digital experience to the next level.</p>
+                <button class="view-product-btn">View Products</button>
             </article>
         </section>
     </main>
