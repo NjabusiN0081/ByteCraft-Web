@@ -242,3 +242,25 @@ footer {
     font-size: 0.95em;
     color: #555;
 }
+
+/* Vision and Mission Section */
+.vision-mission {
+    background-color: #ffffff;
+    padding: 3em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.vision-mission h2 {
+    color: #1e1e2f;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.vision-mission p {
+    font-size: 1.05em;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 2em;
+}
