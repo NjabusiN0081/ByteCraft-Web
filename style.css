@@ -428,12 +428,12 @@ footer {
     padding: 3em 2em;
     background-color: #f4f4f4;
     
-    background-image: url('pictures/about-banner.jpg');
+    background-image: url('pictures\marketing-5187244_1920.png');
     background-size: cover;
     background-position: center;
     padding: 5em 2em;
     text-align: center;
-    color: white;
+    color: rgb(42, 39, 39);
 }
 
 .banner-content h1 {
