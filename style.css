@@ -191,3 +191,54 @@ footer {
 .banner-text button:hover {
     background-color: #2980b9;
 }
+
+/* Why ByteCraft Section */
+.why-bytecraft {
+    background-color: #f9f9f9;
+    padding: 3em 2em;
+    text-align: center;
+}
+
+.why-bytecraft h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    color: #1e1e2f;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.feature {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    flex: 1;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1em;
+}
+
+.feature h3 {
+    color: #3498db;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.feature p {
+    font-size: 0.95em;
+    color: #555;
+}
