@@ -13,6 +13,8 @@ contact&support.html     how to get in touch with |ByteCraft| through contact de
 styles.css         External CSS file  
 /images/          Folder for images  ( still tyhe same 4 images including the logo and products and services)
 
+-LINKS:
+https://github.com/NjabusiN0081
 https://njabusin0081.github.io/ByteCraft-Web/
 https://github.com/NjabusiN0081/ByteCraft-Web
 
