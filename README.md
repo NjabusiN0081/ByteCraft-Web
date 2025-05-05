@@ -4,13 +4,40 @@
 
 ByteCraft is here to empower digital creatives, gamers, and tech enthusiasts by providing high-quality, customizable tech accessories that enhance their craft and express their personality. We aim to build an open community-driven platform where imagination thrives, collaboration blossoms, and inspires people to build their digital world.
 
-index.html       → Main HTML file  as well as home page for entire website
+index.html         Main HTML file  as well as home page for entire website
 shop.html          Clear depiction of how to purchase from online store of company - HTML file
 community.html     An overview of how to fully join part of the culture that Bytecraft projects - HTML file
 aboutus.html       the history of our company and co founder and everyone's role in making it a success - HTML file
 product&services.html    a basic peek into what we offer to our customersz as a online retail company - HTML file
-contac
-styles.css       → External CSS file  
-/images/         → Folder for images  ( still tyhe same 4 images including the logo and products and services)
+contact&support.html     how to get in touch with |ByteCraft| through contact details and access to inqyuire on any valid information
+styles.css         External CSS file  
+/images/          Folder for images  ( still tyhe same 4 images including the logo and products and services)
+
+https://njabusin0081.github.io/ByteCraft-Web/
+https://github.com/NjabusiN0081/ByteCraft-Web
+
+References:
+
+-YOUTUBE:
+Traversy Media
+ https://www.youtube.com/c/TraversyMedia
+Simple and practical HTML/CSS tutorials
+
+Kevin Powell
+ https://www.youtube.com/kepowob
+The best CSS instructor on YouTube
+
+Code with Sahand
+ https://www.youtube.com/c/CodeWithSahand
+Focuses on beautiful design and modern layout
 
 
+
+-WEBSITES:
+W3Schools
+ https://www.w3schools.com/
+Reference for HTML/CSS properties
+
+HTML5 UP
+ https://html5up.net/
+Free HTML templates with CSS — beautifully designed
