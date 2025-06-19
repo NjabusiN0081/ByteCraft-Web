@@ -515,3 +515,15 @@ footer {
     border-radius: 4px;
 }
 
+
+#readMore{
+    background-color: #3498db;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+}
