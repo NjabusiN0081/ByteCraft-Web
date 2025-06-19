@@ -108,7 +108,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition:  0.3s ease;
 }
 
 .hero button:hover {
@@ -185,7 +185,7 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition:  0.3s ease;
 }
 
 .banner-text button:hover {
@@ -329,7 +329,7 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .product .view-product-btn:hover {
@@ -415,7 +415,7 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition:  0.3s ease;
 }
 
 .shop-now-btn:hover {
@@ -482,12 +482,10 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition:  0.3s ease;
 }
 
-.feedback-section{
 
-}
 
 .feedback-section form {
     
@@ -517,3 +515,15 @@ footer {
     border-radius: 4px;
 }
 
+
+
+#readMore{
+    background-color: #3498db;
+    color: white;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
