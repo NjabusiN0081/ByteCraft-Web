@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,28 +30,55 @@
             <article class="product">
                 <h2>Custom Merchandise for Content Creators</h2>
                 <p>Design and sell your own merch for your fans, from t-shirts to accessories.</p>
-                <img src="pictures\social-3776264.jpg" alt="Custom Merchandise for Content Creators">
-                <button class="view-product-btn">View Products</button>
+                <img src="pictures/social-3776264.jpg" alt="Custom Merchandise for Content Creators">
+                <button class="view-product-btn" onclick="showPrice(this)">View Products</button>
+                <div class="price-container"></div>
             </article>
 
             <article class="product">
                 <h2>Gaming Gear & Accessories</h2>
                 <p>Upgrade your setup with high-performance gaming gear.</p>
                 <img src="pictures/gamer-6899810_1280.jpg" alt="Gaming Gear & Accessories">
-                <button class="view-product-btn">View Products</button>
+                <button class="view-product-btn" onclick="showPrice(this)">View Products</button>
+                <div class="price-container"></div>
             </article>
 
             <article class="product">
                 <h2>Tech Solutions for Your Digital World</h2>
                 <p>Find tools and tech to take your digital experience to the next level.</p>
-                <img src="pictures\church-film-equipment-5366803_1280.jpg" alt="Tech Solutions for DigiWorld">
-                <button class="view-product-btn">View Products</button>
+                <img src="pictures/church-film-equipment-5366803_1280.jpg" alt="Tech Solutions for DigiWorld">
+                <button class="view-product-btn" onclick="showPrice(this)">View Products</button>
+                <div class="price-container"></div>
             </article>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 ByteCraft. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> ByteCraft. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        function showPrice(button) {
+            const product = button.closest("article");
+            const priceDiv = product.querySelector(".price-container");
+
+            if (priceDiv.innerHTML === "") {
+
+                let priceText = "";
+
+                if (product.querySelector("h2").textContent.includes("Merchandise")) {
+                    priceText = "Prices start at R1500.00";
+                } else if (product.querySelector("h2").textContent.includes("Gaming Gear")) {
+                    priceText = "Prices start at R2000.00";
+                } else {
+                    priceText = "Prices vary from R299.00 to R12000.00";
+                }
+
+                priceDiv.innerHTML = "<p>" + priceText + "</p>";
+            }
+        }
+    </script>
 </body>
 </html>
