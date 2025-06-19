@@ -82,12 +82,19 @@
         <section class="cta">
             <h2>Join the ByteCraft Community</h2>
             <p>Become a part of a passionate community of digital creators, gamers, and tech enthusiasts. Get exclusive access to personalized products, new tech, and innovative solutions that will help you build your digital world.</p>
-            <button class="cta-button">Join Now</button>
+            <button class="cta-button" id="joinNow">Join Now</button>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 ByteCraft. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> ByteCraft. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("joinNow").onclick = function(){
+            location.href = 'signup.html'
+        }
+        document.getElementById("year").textContent = new Date().getFullYear
+    </script>
 </body>
 </html>
