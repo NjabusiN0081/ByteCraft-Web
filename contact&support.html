@@ -43,13 +43,13 @@
             </ul>
         </section>
 
-        <section class="feedback-section">
+        <section class="feedback-section" id="feedback-section">
             <h2>Send Us a Message</h2>
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" required><br>
-                <input type="email" name="email" placeholder="Your Email" required><br>
+            <form action="form" method="post" class="form">
+                <input type="text" name="name" placeholder="Your Name" required id="name"><br>
+                <input type="email" name="email" placeholder="Your Email" required id="email"><br>
                 <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
-                <button type="submit" class="cta-button">Submit</button>
+                <button type="submit" class="cta-button" id="submit">Submit</button>
             </form>
         </section>
 
@@ -61,7 +61,32 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 ByteCraft. All rights reserved.</p>
+       <p>&copy; <span id="year"></span>  ByteCraft. All rights reserved.</p>
     </footer>
+
+    <script>
+
+        
+        document.getElementById('submit').onclick= function(event) {
+    
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+     
+    
+    
+        if (name && email ) {
+            alert('Thank you contacting us! We will get in touch with you soon.');
+            form.reset();
+           
+        } else {
+            alert('Please fill out all the fields.');
+        }
+    
+        };
+         
+
+         document.getElementById("year").textContent = new Date().getFullYear();
+       
+    </script>
 </body>
 </html>
