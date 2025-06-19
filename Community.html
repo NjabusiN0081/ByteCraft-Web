@@ -45,7 +45,7 @@
             <h2>Comments & Feedback</h2>
             <textarea placeholder="Leave your feedback here..."></textarea>
             <br>
-            <button class="cta-button">Submit</button>
+            <button class="cta-button" id="submit">Submit</button>
         </section>
 
         <section class="cta">
@@ -56,7 +56,14 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 ByteCraft. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> ByteCraft. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("submit").onclick = function(){
+            alert('Thank you for your feedback')
+        }
+        document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
 </body>
 </html>

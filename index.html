@@ -30,7 +30,7 @@
         <div class="banner-text">
             <h1>ByteCraft</h1>
             <p>Your Gear. Your Community. Your Craft.</p>
-            <button onclick="location.href='Community.html'">Join Now</button>
+            <button id="joinNow">Join Now</button>
         </div>
     </div>
     
@@ -73,19 +73,33 @@
                 Our vision is to be the first choice for personalized tech products on the internet, where technology can be effortlessly merged with personal expression.
                 We want to establish a society where innovation and self-expression combine to create an active, supportive community of like-minded individuals united by their passion for creativity, technology, and community.
             </p>
+            
         
             <h2>Our Mission</h2>
             <p>
                 ByteCraft is here to empower digital creatives, gamers, and tech enthusiasts by providing high-quality, customizable tech accessories that enhance their craft and express their personality.
                 We aim to build an open community-driven platform where imagination thrives, collaboration blossoms, and inspires people to build their digital world.
             </p>
+            <button id="readMore">Read More</button>
         </section>
         
     </main>
 
     <footer>
-        <p>&copy; 2025 ByteCraft. All rights reserved.</p>
+        <p>&copy; <span id="year"></span>  ByteCraft. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("joinNow").onclick = function(){
+            location.href = 'community.html'
+        }
+
+        document.getElementById("readMore").onclick = function(){
+            location.href = 'aboutus.html'
+        }
+
+        document.getElementById("year").textContent = new Date(). getFullYear()
+    </script>
 </body>
 </html>
 

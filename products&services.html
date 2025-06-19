@@ -49,12 +49,19 @@
         <section class="cta">
             <h2>Get Started with ByteCraft Today</h2>
             <p>Let us help you bring your digital world to life with innovative tech solutions and personalized services. Join the ByteCraft community and unlock endless possibilities.</p>
-            <button class="shop-now-btn">Get Started</button>
+            <button class="shop-now-btn" id="getStarted">Get Started</button>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 ByteCraft. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> ByteCraft. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("getStarted").onclick = function(){
+            location.href ='shop.html'
+        }
+        document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
 </body>
 </html>
